@@ -4,6 +4,10 @@ This application will detect **Breast-Cancer** .
 
 The App Link :    https://breast-cancer-detection-ad-app.herokuapp.com/
 
+---->> Breast cancer is a dangerous disease for women. If it does not identify in the early-stage then the result will be the death of the patient. It is a common cancer in women worldwide. Worldwide near about 12% of women affected by breast cancer and the number is still increasing.
+
+We have extracted features of breast cancer patient cells and normal person cells. As a Machine learning engineer / Data Scientist has to create an ML model to classify malignant and benign tumor. To complete this ML project we used the supervised machine learning classifier algorithms.
+
 Some Glimpses of Application : 
 
 ![rcd](https://user-images.githubusercontent.com/61588604/108604706-8d40e200-73d5-11eb-815f-aa4958f6415b.png)
@@ -15,23 +19,20 @@ Some Glimpses of Application :
 
 Journey : 
 
-**1) Data Collection** :  Data collecting process of thus project is AWESOME .
+**1) Data Collection** :  Data is collected from seaborn_datasets .
 
-    a) used third party api and using python , "retrieve data of every day of every month of 2013-2018 year" from the html pages( web pages) of the BANGLORE Place .
-    b)about data : Data Columns are : Average Temperature(T), Maximum Temperatre(TM), Minimum Temperature(Tm), Atmospheric Pressure at sea level (SLP), Average Relative Humidity(H) , Average Visibility, Average wind speed(V), Maximum sustained wind speed(VM), AQI-index ( PM 2.5 ) . 
+    a)about data : dataset contains breast cancer patient cells and normal person cells . 
     
-    c) As a data scientist, we will predict the Air-Quality-Index for Banglore place, if user enter some features values as input .
+    b) As a data scientist, we will classify breast-cancer .
     
     
 **2) Data Preprocessing :** 
         
         a) checked the null values and removed those . 
+                
+        b) checked data that it is in guassian form. then scaled the data for some models (like linear , lasso, ridge...) because ensemble machine learning model don't need the scaled data .
         
-        b) we collected data from 3rd party api using python so there were not many null values. All data is numerical .
-        
-        c) checked data that it is in guassian form. then scaled the data for some models (like linear , lasso, ridge...) because ensemble machine learning model don't need the scaled data .
-        
-        d) Now we can build machine learning models .
+        c) Now we can build machine learning models .
         
         
 
@@ -42,15 +43,15 @@ Journey :
     
     b) perform train_test_split .
     
-    c) buoid models of -  linear regression,Lasso Regressor,Ridge regression , DecisionTreeRegressor, KNearestRegressor, RandomForestRegressor with hyperparameter tuning, XgBoost with hyperparameter tuning. 
+    c) buoid models of -  Logistic Regression , DecisionTreeClassifier, RandomForestClassifier with hyperparameter tuning, XgBoost Classifier with hyperparameter tuning. 
     
-    d) obsered that XGBoostRegressor with some parameters(got from hyperparameter tuning) has highest score and lowest error . so save this XgboostRegressor model using pickle.
+    d) obsered that XGBoost Classifier with some parameters(got from hyperparameter tuning) has highest score and lowest error . so save this XgboostRegressor model using pickle.
 
 **4) Model deployment** : 
 
     a) using flask framework , we deployed this model on HEROKU platform .
     
-App link :  https://air-quality-prediction-app.herokuapp.com/
+App link :   https://breast-cancer-detection-ad-app.herokuapp.com/
     
     
 
