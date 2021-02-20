@@ -6,11 +6,11 @@ The App Link :    https://breast-cancer-detection-ad-app.herokuapp.com/
 
 Some Glimpses of Application : 
 
-![rcd1](https://user-images.githubusercontent.com/61588604/108604652-35a27680-73d5-11eb-9760-f28c73e172ce.png)
+![rcd](https://user-images.githubusercontent.com/61588604/108604706-8d40e200-73d5-11eb-815f-aa4958f6415b.png)
 
-![rcd2](https://user-images.githubusercontent.com/61588604/108604662-481cb000-73d5-11eb-8092-0e2c4c40fb99.png)
+![rcd2](https://user-images.githubusercontent.com/61588604/108604715-9af66780-73d5-11eb-8765-09607ccf29d1.png)
 
-![rcd3](https://user-images.githubusercontent.com/61588604/108604680-5a96e980-73d5-11eb-9544-eb31e6d0996d.png)
+![rcd3](https://user-images.githubusercontent.com/61588604/108604722-a6e22980-73d5-11eb-8446-257dcb0fb29c.png)
 
 
 Journey : 
